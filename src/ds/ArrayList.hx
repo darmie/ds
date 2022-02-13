@@ -1233,7 +1233,7 @@ class ArrayList<T> implements List<T>
 	**/
 	public function toArray():Array<T>
 	{
-		return mData.toArray(0, size, []);
+		return polygonal.ds.tools.NativeArrayTools.toArray(mData, 0, size, []);
 	}
 	
 	/**
